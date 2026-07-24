@@ -1,0 +1,78 @@
+.contact{
+
+display:flex;
+
+justify-content:center;
+
+align-items:center;
+
+height:90vh;
+
+background:#f4fbff;
+
+}
+
+.contact-box{
+
+width:500px;
+
+background:white;
+
+padding:40px;
+
+border-radius:15px;
+
+box-shadow:0 5px 20px rgba(0,0,0,.08);
+
+display:flex;
+
+flex-direction:column;
+
+gap:20px;
+
+}
+
+.contact-box h1{
+
+text-align:center;
+
+color:#0EA5E9;
+
+}
+
+.contact-box input,
+.contact-box textarea{
+
+padding:14px;
+
+border:1px solid #ccc;
+
+border-radius:8px;
+
+font-size:16px;
+
+}
+
+.contact-box button{
+
+padding:15px;
+
+background:#0EA5E9;
+
+color:white;
+
+border:none;
+
+border-radius:8px;
+
+font-size:17px;
+
+cursor:pointer;
+
+}
+
+.contact-box button:hover{
+
+background:#0284C7;
+
+}
